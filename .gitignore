@@ -1,6 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-/home/devnock/Drive B/new/check-codes/NetFlix/netflix-frontend/src/constants/constants.js
 # dependencies
 /node_modules
 /.pnp

@@ -11,11 +11,29 @@
 .posters::-webkit-scrollbar{
     display: none;
 }
+
 .poster{
     max-height: 250px;
+    margin-right: 10px;
+}
+.poster:hover{
     margin-right: 10px;
 }
 .smallPoster{
     max-height: 180px;
     margin-right: 10px;
+    
+}
+
+@media screen and (max-width:600px) {
+    .poster{
+        max-height: 180px;
+        margin-right: 4px;
+    }
+    .smallPoster{
+        max-height: 120px;
+        margin-right: 4px;
+        
+    }
+
 }
